@@ -1,0 +1,11 @@
+maintainer        'Ludovic Claude'
+maintainer_email  'ludovic.claude@laposte.net'
+license           'MIT'
+description       'Uses pivotal_workstation to configure an OSX workstation for scala development'
+long_description  'Uses pivotal_workstation to configure an OSX workstation for scala development'
+version           '0.1.0'
+supports          'mac_os_x'
+
+depends           'pivotal_workstation'
+depends           'sprout-osx-settings'
+depends           'sprout-osx-apps'

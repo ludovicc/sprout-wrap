@@ -1,5 +1,6 @@
 include_recipe "pivotal_workstation::bash_it"
-include_recipe "pivotal_workstation::ccmenu"
+include_recipe "pivotal_workstation::bash4"
+include_recipe "pivotal_workstation::bash_completion"
 include_recipe "pivotal_workstation::git_config_global_defaults"
 include_recipe "pivotal_workstation::git_scripts"
 include_recipe "pivotal_workstation::github_for_mac"
